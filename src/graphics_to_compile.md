@@ -84,3 +84,5 @@ gfx/Perfect/CCC138_perfect_bg
 gfx/Results/CD4F58_results_obj
 gfx/MedalCorner/CD8FA4_medalcorner_obj
 gfx/Disclamer/disclamer_bg
+gfx/TitleScreen/CD7948_titlescreen_obj
+gfx/TitleScreen/CD663C_titlescreen_bg

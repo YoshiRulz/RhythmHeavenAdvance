@@ -5,6 +5,7 @@
 ; Graphics Relocate
 
 .include "gfx/Font/font_relocate.asm"
+.include "gfx/TitleScreen/title_relocate.asm"
 .include "gfx/RhythmGames/RatRace/ratrace_relocate.asm"
 .include "gfx/RhythmGames/NightWalk/nightwalk_relocate.asm"
 .include "gfx/RhythmGames/KarateMan/karateman_relocate.asm"
@@ -75,5 +76,6 @@
 .include "src/TempoUp/KarateMan/karateman_relocate.asm"
 
 .include "src/Disclamer/scene_disclamer_relocate.asm" ; move this somewhere
+.include "src/TitleScreen/title_relocate.asm" ; move this somewhere
 
 .include "src/DebugMenu/debugmenu_relocate.asm" ; move this somewhere

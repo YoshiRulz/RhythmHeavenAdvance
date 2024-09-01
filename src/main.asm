@@ -45,6 +45,7 @@ gameVersion equ readbyte("build/rh-atlus.gba", 0xBD)
 .include "src/relocate.asm"
 
 .include "gfx/Font/font.asm"
+.include "gfx/TitleScreen/title.asm"
 .include "gfx/RhythmGames/RatRace/ratrace.asm"
 .include "gfx/RhythmGames/NightWalk/nightwalk.asm"
 .include "gfx/RhythmGames/KarateMan/karateman.asm"
@@ -115,6 +116,7 @@ gameVersion equ readbyte("build/rh-atlus.gba", 0xBD)
 .include "src/Disclamer/scene_disclamer.asm"
 
 .include "src/DebugMenu/debugmenu.asm"
+.include "src/TitleScreen/title.asm"
 
 .org 0x0800BDFA
 bl getTempo
